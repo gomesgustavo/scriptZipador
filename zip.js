@@ -4,10 +4,10 @@ const sizeOf = require('image-size');
 function generateZip(filename, i){  
     //ARQUIVOS DE IMAGENS
 
-    var Notice = "true"
-    var Texto = "Rio Ramos, parcialmente soterrado pelas obras Olímpicas, responsável pelo deságue na Baía da Guanabara de grande parte dos esgotos do Complexo do Alemão."
-    var Username = "Hugo"
-    var Veiculo = "Fonte: Colab"
+    var Notice = "false"
+    var Texto = "null"
+    var Username = "null"
+    var Veiculo = "lorem..."
 
     fs.copyFile('images/baia ('+i+').jpg', filename+'i.pt.jpg', (err) => {
         if (err) throw err;
